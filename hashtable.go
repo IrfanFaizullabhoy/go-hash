@@ -134,7 +134,7 @@ func (h *HashMap) Get(key string) interface{} {
 	}
 }
 
-// Gets a value for a key in the hash map.
+// Deletes a value for a key in the hash map.
 // Returns false if no associated value is available
 func (h *HashMap) Delete(key string) interface{} {
 	hashedKey := hash(key)
